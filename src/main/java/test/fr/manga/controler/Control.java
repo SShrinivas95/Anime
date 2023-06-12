@@ -80,7 +80,7 @@ public class Control {
         Anime[] Animetest = animeList.getAnimes();
 
 
-        if (Animetest != null) {
+        if (Animetest != null ) {
             model.addAttribute("existe","non");
             Anime ani = Animetest[0];
             Mangaa.setTitre(ani.getTitle());
