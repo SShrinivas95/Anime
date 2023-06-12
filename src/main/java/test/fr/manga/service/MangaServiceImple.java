@@ -34,7 +34,7 @@ public class MangaServiceImple implements MangaService {
     }
 
     @Override
-    public void Supp(String nom, String editeur) {
+    public void Supp(String nom, String editeur ) {
         String nomm = nom;
         String editeurr = editeur;
         List<manga> liste = dao.findAll();
