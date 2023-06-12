@@ -1,0 +1,70 @@
+
+.d-flex.justify-content-center .btn.btn-success {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+button.noselect {
+    margin-right: 10px;
+    margin-top: 5px;
+    transform: scale(1);
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+}
+
+button.noselect,
+button span {
+    transition: 200ms;
+}
+
+button.noselect .text {
+    transform: translateX(20px);
+    color: white;
+    font-weight: bold;
+}
+
+button.noselect .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.noselect svg {
+    width: 15px;
+    fill: #eee;
+}
+
+button.noselect:hover {
+    background: #ff3636;
+}
+
+button.noselect:hover .text {
+    color: transparent;
+}
+
+button.noselect:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+button.noselect :focus {
+    outline: none;
+}
+
+button.noselect:active .icon svg {
+    transform: scale(0.8);
+}
